@@ -1,6 +1,5 @@
 # Zimuku
 Python爬虫使用Scrapy框架抓取了zimuku内的字幕资料</br>
-本次是第一次使用Scrapy</br>
 
 初始化创建Scrapy工程：        scrapy startproject zimuku</br>
 并创建spider：               scrapy genspider demo http://zimuku.net</br>
@@ -18,7 +17,7 @@ Python爬虫使用Scrapy框架抓取了zimuku内的字幕资料</br>
 └── scrapy.cfg              #部署爬虫的配置文件</br>
 
 spiders demo中</br>
-# 将我们需要爬的项目引入进来</br>
+#将我们需要爬的项目引入进来</br>
 from zimuku.items import ZimukuItem</br>
 
 settings.py中</br>
@@ -28,3 +27,5 @@ ITEM_PIPELINES={'zimuku.pipelines.ZimukuPipeline':300,}</br>
 import sys</br>
 reload(sys)</br>
 sys.setdefaultencoding('utf-8')</br>
+
+本次是第一次使用Scrapy</br>
