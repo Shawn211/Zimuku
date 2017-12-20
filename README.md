@@ -27,5 +27,3 @@ ITEM_PIPELINES={'zimuku.pipelines.ZimukuPipeline':300,}</br>
 import sys</br>
 reload(sys)</br>
 sys.setdefaultencoding('utf-8')</br>
-
-本次是第一次使用Scrapy</br>
