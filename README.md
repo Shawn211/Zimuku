@@ -27,3 +27,5 @@ ITEM_PIPELINES={'zimuku.pipelines.ZimukuPipeline':300,}</br>
 import sys</br>
 reload(sys)</br>
 sys.setdefaultencoding('utf-8')</br>
+
+此爬虫可以展示每页字幕数目
